@@ -1,0 +1,65 @@
+{
+  "timestamp": "2026-10-03 06:49:13 UTC",
+  "tier": "7b",
+  "total_cases": 5,
+  "passed": 3,
+  "accuracy_pct": 60.0,
+  "avg_latency_s": 0.0001,
+  "details": [
+    {
+      "id": "conv_01",
+      "domain": "Conversational",
+      "query": "hii",
+      "latency_s": 0.0,
+      "score": 10.0,
+      "passed": true,
+      "intent": "conversational_fastpath",
+      "tool_used": null,
+      "feedback": "Factual recall adequate (100%)"
+    },
+    {
+      "id": "conv_02",
+      "domain": "Conversational",
+      "query": "who are you and what makes you sovereign?",
+      "latency_s": 0.0001,
+      "score": 10.0,
+      "passed": true,
+      "intent": "graphrag_grounded_fallback",
+      "tool_used": null,
+      "feedback": "Factual recall adequate (100%)"
+    },
+    {
+      "id": "conv_03",
+      "domain": "Conversational",
+      "query": "namaste",
+      "latency_s": 0.0,
+      "score": 10.0,
+      "passed": true,
+      "intent": "conversational_fastpath",
+      "tool_used": null,
+      "feedback": "Factual recall adequate (100%)"
+    },
+    {
+      "id": "conv_04",
+      "domain": "Conversational",
+      "query": "tell me about yourself",
+      "latency_s": 0.0001,
+      "score": 6.0,
+      "passed": false,
+      "intent": "graphrag_grounded_fallback",
+      "tool_used": "kuzu_graph",
+      "feedback": "Factual recall low (0%)"
+    },
+    {
+      "id": "conv_05",
+      "domain": "Conversational",
+      "query": "thank you for your help",
+      "latency_s": 0.0001,
+      "score": 6.0,
+      "passed": false,
+      "intent": "graphrag_grounded_fallback",
+      "tool_used": null,
+      "feedback": "Factual recall low (0%)"
+    }
+  ]
+}
