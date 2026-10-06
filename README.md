@@ -132,3 +132,14 @@ docker run --rm vigyan-eval
    **Deploy the Vigyan Native Agent exclusively.** It delivers sub-100ms latency, zero code-syntax bugs, runs entirely on CPU or budget GPUs, and requires $0.00 in proprietary API calls.
 2. **For 32B Titan Tier:**  
    Use a **Hybrid Router**: route single-turn formulas, calculus, and dialogue to Vigyan Native (for instantaneous response), and delegate multi-step iterative algorithmic simulation loops to `smolagents`.
+
+---
+
+## 📜 License & Sovereign Attribution
+
+This evaluation suite, benchmark harnesses, and hybrid agent architectures are released under the **Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)** license.
+
+- **Permitted Use:** Academic evaluation, research replication, educational coursework, and personal non-commercial experimentation.
+- **Commercial Inquiries:** Proprietary deployment or commercial integration requires an enterprise license from the founder.
+- **Founder & Chief Architect:** [Shreyansh Singh](https://github.com/shreyansh001boy-tech)
+- **Organization:** Vigyan AI / [ExperimentLab.in](https://experimentlab.in)
